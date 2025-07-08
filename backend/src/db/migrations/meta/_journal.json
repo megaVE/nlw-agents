@@ -8,6 +8,13 @@
       "when": 1751993042436,
       "tag": "0000_gifted_moonstone",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1752002617587,
+      "tag": "0001_eager_nighthawk",
+      "breakpoints": true
     }
   ]
 }

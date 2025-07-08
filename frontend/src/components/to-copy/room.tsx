@@ -1,18 +1,18 @@
-import { ArrowLeft, Radio } from 'lucide-react';
-import { Link, Navigate, useParams } from 'react-router-dom';
-import { QuestionForm } from '@/components/question-form';
-import { QuestionItem } from '@/components/question-item';
-import { Button } from '@/components/ui/button';
+import { ArrowLeft, Radio } from 'lucide-react'
+import { Link, Navigate, useParams } from 'react-router-dom'
+import { Button } from '@/components/ui/button'
+import { QuestionForm } from './question-form'
+import { QuestionItem } from './question-item'
 
 type RoomParams = {
-  roomId: string;
-};
+  roomId: string
+}
 
 export function Room() {
-  const params = useParams<RoomParams>();
+  const params = useParams<RoomParams>()
 
   if (!params.roomId) {
-    return <Navigate replace to="/" />;
+    return <Navigate replace to="/" />
   }
 
   return (
@@ -62,5 +62,5 @@ export function Room() {
         </div>
       </div>
     </div>
-  );
+  )
 }
