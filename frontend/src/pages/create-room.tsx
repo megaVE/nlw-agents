@@ -1,7 +1,7 @@
 import { CreateRoomForm } from '@/components/create-room-form';
 import { RoomList } from '@/components/room-list';
 
-export function CreateRoom() {
+export function CreateRoomPage() {
   return (
     <div className="min-w-screen px-4 py-8">
       <div className="mx-auto max-w-4xl">
